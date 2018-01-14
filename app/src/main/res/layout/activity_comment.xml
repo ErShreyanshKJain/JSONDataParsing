@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrewdunn.newsreaderapp.Comment">
+
+
+    <!--<TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Name: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+-->
+    <!--<TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editName"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="16dp"
+        android:text="Email: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+-->
+    <TextView
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <!--<TextView
+        android:id="@+id/commentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editEmail"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="20dp"
+        android:text="Comment:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+-->
+    <TextView
+        android:id="@+id/editComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Comment"
+        android:inputType="textMultiLine"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+</RelativeLayout>
